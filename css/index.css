@@ -66,3 +66,23 @@ a:active {
         min-height: 400px;
     }
 }
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    #about {
+        margin-top: 15px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    #about {
+        margin-top: 230px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    #about {
+        margin-top: 230px;
+    }
+}
